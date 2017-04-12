@@ -1,0 +1,6 @@
+[submodule "front-end-recruitment-test-submodule"]
+	path = front-end-recruitment-test-submodule
+	url = https://github.com/SnowdogApps/front-end-recruitment-test-submodule.git
+[submodule "submodule"]
+	path = submodule
+	url = https://github.com/SnowdogApps/front-end-recruitment-test-submodule.git

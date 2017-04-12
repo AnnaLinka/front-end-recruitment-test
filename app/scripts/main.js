@@ -73,4 +73,35 @@
   }
 
   // Your custom JavaScript goes here
+
+  //TASK #3 - add bacon img when clicking on button "More bacon"
+  var buttonMoreBacon = document.querySelector('button');
+  var image = document.querySelector('img');
+
+  buttonMoreBacon.addEventListener('click', function() {
+    var extraBeconImg = image.cloneNode(true);
+    image.parentNode.appendChild(extraBeconImg);
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })();
